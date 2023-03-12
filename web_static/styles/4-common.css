@@ -1,31 +1,20 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-color: #484848;
-	font-size: 14px;
-	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif
-}
+/*
+ * === Global style ===
+ */
 
-.container {
-	max-width: 1000px;
-	margin: 30px 30px;
-	display: flex;
-	justify-items: center;
-	position: relative;
-}
+/* Global style */
+body{
+    color: #484848;
+    margin: 0;
+    padding: 0;
+    font: 14px Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+ .container{
+    margin: 30px auto;
+    max-width: 1000px;
+ }
 
-button {
-	font-size: 18px;
-	background-color: #ff5a5f;
-	color: white;
-	height: 48px;
-	width: 20px;
-	border: 0;
-	border-radius: 4px;
-	justify-items: center;
-	margin-right: 30px;
-}
-
-button:hover {
-	opacity: 0.9
-}
+ /*strong*/
+ strong {
+   font-weight: bold;
+ }
